@@ -1,9 +1,8 @@
-public abstract class WirelessPhone extends AbstractPhone{ //абстрактный класс БеспроводнойТелефон, унаследованный от абстрактного
-    //класса АбстрактныйТелефон
-    private int hoursOfBattery; //обьляем приватное целочисленное поле часовДержитБатарея
+public abstract class WirelessPhone extends AbstractPhone { // абстрактний клас БездротовийТелефон, успадкований від абстрактного класу АбстрактнийТелефон
+    private int hoursOfBattery; // оголошуємо приватне ціле поле годинДіїБатареї
 
-    public WirelessPhone(int yearOfIssue, int hoursOfBattery) { //обязательная реализация конструктора класса с привзкой к родительскому классу
-        super(yearOfIssue); //наследуемся от родительского конструктора
-        this.hoursOfBattery = hoursOfBattery; //инициализируем поле класса
+    public WirelessPhone(int yearOfIssue, int hoursOfBattery) { // обов'язкова реалізація конструктора класу з прив'язкою до батьківського класу
+        super(yearOfIssue); // успадковуємо конструктор від батьківського класу
+        this.hoursOfBattery = hoursOfBattery; // ініціалізуємо поле класу
     }
 }
