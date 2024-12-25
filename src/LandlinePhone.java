@@ -1,17 +1,17 @@
-public class LandlinePhone extends AbstractPhone { //публичный класс ПроводнойТелефон, унаследованный от родительского класса AbstractPhone
+public class LandlinePhone extends AbstractPhone { // публічний клас "Стаціонарний телефон", успадкований від батьківського класу AbstractPhone
 
-    //обязательная реализация родительского конструктора
+    // обов'язкова реалізація батьківського конструктора
     public LandlinePhone(int yearOfIssue) {
         super(yearOfIssue);
     }
 
     @Override
     public void callTo(int outputNumber) {
-        System.out.println("I am calling number..."); //печатаем - я звоню по номеру
+        System.out.println("Я телефоную на номер..."); // друкуємо - я телефоную на номер
     }
 
     @Override
     public void callingUs(int inputNumber) {
-        System.out.println("Ding-ding..."); //печатаем - дзынь-дзынь
+        System.out.println("Дзинь-дзинь..."); // друкуємо - дзинь-дзинь
     }
 }
