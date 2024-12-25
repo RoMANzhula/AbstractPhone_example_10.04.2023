@@ -1,11 +1,11 @@
-public class ThomasEdisonPhone extends AbstractPhone { //публичный класс ТелефонТомаЭдисона, унаследованный от абстрактного класса АбстрактныйТелефон
+public class ThomasEdisonPhone extends AbstractPhone { // публічний клас ТелефонТомаЕдісона, успадкований від абстрактного класу АбстрактнийТелефон
 
-    //реализация обязательного конструктора класса по унаследованному классу
+    // реалізація обов'язкового конструктора класу за успадкованим класом
     public ThomasEdisonPhone(int yearOfIssue) {
         super(yearOfIssue);
     }
 
-    //обязательная реализация-переопределение методов родительского класса AbstractPhone
+    // обов'язкова реалізація-перевизначення методів батьківського класу AbstractPhone
     @Override
     public void callTo(int outputNumber) {
         System.out.println("Вращайте ручку");
