@@ -1,13 +1,13 @@
-public abstract class AbstractPhone { //публичный абстрактный кдасс
-    private int yearOfIssue; //обьявляем приватное поле - год выпуска телефона
+public abstract class AbstractPhone { // публічний абстрактний клас
+    private int yearOfIssue; // оголошуємо приватне поле - рік випуску телефону
 
-    public AbstractPhone(int yearOfIssue) { //обьявляем конструктор класса
-        this.yearOfIssue = yearOfIssue; //инициализируем поле
+    public AbstractPhone(int yearOfIssue) { // оголошуємо конструктор класу
+        this.yearOfIssue = yearOfIssue; // ініціалізуємо поле
     }
 
-    public abstract void callTo(int outputNumber); //обьявляем абстрактный класс без реализации - позвонитьКому-то (на вход
-    //принимает целочисленную переменную исходящийНомер)
+    public abstract void callTo(int outputNumber); // оголошуємо абстрактний метод без реалізації - зателефонуватиКомусь 
+    // (приймає на вхід ціле число outputNumber)
 
-    public abstract void callingUs(int inputNumber); //обьявляем абстрактный класс без реализации - звонятНам (на вход
-    //принимает целочисленную переменную входяшийНомер)
+    public abstract void callingUs(int inputNumber); // оголошуємо абстрактний метод без реалізації - телефонуютьНам 
+    // (приймає на вхід ціле число inputNumber)
 }
